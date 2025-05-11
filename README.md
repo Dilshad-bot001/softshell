@@ -1,4 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SoftSell - Software License Resale Platform
+
+SoftSell is a responsive, single-page marketing website for a fictional software resale startup, built with TypeScript for type safety. It uses Next.js (App Router), Tailwind CSS, Clerk for authentication, and Framer Motion for animations. The project includes all required features plus bonus points.
+
+## Features Implemented
+- **Hero Section**: Bold headline, subheading, and CTA button ("Get a Quote") with Clerk authentication.
+- **How It Works**: Three-step process (Upload License, Get Valuation, Get Paid) with icons and animations.
+- **Why Choose Us**: Four tiles with icons and descriptions highlighting benefits.
+- **Customer Testimonials**: Two dummy reviews with name, role, and company.
+- **Contact Form**: Form with name, email, company, license type (dropdown), and message, including frontend validation.
+- **Chat Widget**: Mock LLM-powered chat with predefined questions and responses.
+- **Bonus Features**:
+  - Placeholder logo and favicon.
+  - SEO meta tags and page title.
+  - Light/dark mode toggle.
+  - Framer Motion animations for smooth transitions.
+  - Clerk authentication for secure sign-in.
+  - TypeScript for type-safe code.
+
+## Design Choices
+- **Color Palette**: Blue (`#1E3A8A`, `#3B82F6`) for trust and professionalism, with yellow (`#F59E0B`) as an accent for CTAs.
+- **Typography**: Inter font for clean, modern readability.
+- **UI/UX**: Responsive grid layout, mobile-first design, and subtle animations inspired by Dribbble references.
+- **Chat Widget**: Positioned bottom-right, with mock responses to simulate an LLM. Predefined questions improve UX.
+- **Dark Mode**: Toggled via a button, using Tailwind's dark mode classes.
+- **Authentication**: Clerk provides a seamless sign-in experience for the "Get a Quote" CTA.
+- **TypeScript**: Interfaces and types ensure robust code, especially for form data, component props, and state.
+
+## Time Spent
+- Planning and setup: 1 hour
+- UI design and Tailwind styling: 2 hours
+- Component development: 3 hours
+- Animations and chat widget: 1.5 hours
+- Clerk integration and TypeScript typing: 1.5 hours
+- README and documentation: 0.5 hours
+- **Total**: ~9.5 hours
 
 ## Getting Started
 
