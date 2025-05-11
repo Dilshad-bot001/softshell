@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaRobot, FaTimes } from 'react-icons/fa';
 import { BotMessageSquare, X } from 'lucide-react';
 
 interface Message {

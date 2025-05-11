@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import openai from "@/lib/openai";
-import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
 
 export const runtime = "edge";
 

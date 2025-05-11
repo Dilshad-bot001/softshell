@@ -2,8 +2,6 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image';
 
-// import { testimonials } from '../utils/constant'
-
 export const testimonials = [
     {
       quote:
